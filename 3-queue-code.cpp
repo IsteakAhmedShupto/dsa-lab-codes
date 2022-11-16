@@ -35,6 +35,16 @@ void pop()
     }
 }
 
+void peek()
+{
+    if (front == -1 || front > rear)
+        cout << "Underflow";
+    else
+    {
+        cout << q[front];
+    }
+}
+
 void display()
 {
     for (ll i = front; i <= rear; i++)
