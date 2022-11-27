@@ -9,6 +9,7 @@ using namespace std;
 map<int, int> visited;
 map<int, int> level;
 vector<int> vec[100];
+
 int BFS(int start)
 {
     queue<int> q;
