@@ -7,3 +7,4 @@
 - Linkedlist
 - Stack
 - Queue
+- Graph
